@@ -1,0 +1,35 @@
+C++20 C++20 C++20 C++20 C++20 C++20 C++20
+
+C11 C11 C11 C11 C11 
+git git git git git
+cmake cmake cmake cmake cmake
+
+python3 python3 python3
+R R R
+bash bash bash
+LaTeX LaTeX
+
+matplotlib matplotlib numpy numpy sklearn sklearn pandas pandas
+GNUmake GNUmake
+Bayes Bayes
+Haskell Haskell
+OpenCV OpenCV
+hardwareDesign hardwareDesign
+AutodeskInventor AutodeskInventor
+SDL2 SDL2
+
+
+MatLab
+USB2 I2C SPI
+SolidWorks CATIA
+OpenGL
+pyQt
+linguistics
+markov
+mechanicalDesign
+dynamicSystems
+digitalFilters
+gitolite
+Java
+adb
+AtmelAVR
