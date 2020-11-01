@@ -33,3 +33,33 @@ gitolite
 Java
 adb
 AtmelAVR
+gdb
+clang-tidy
+valgrind
+Proteus
+dynamic systems
+
+spectral clustering
+https://en.wikipedia.org/wiki/Levenshtein_distance
+
+jtag
+svm
+random forest
+
+signal processing
+dynamic systems
+larger bash
+android
+adb
+SQL
+CTest
+LAMP
+
+
+
+3 clouds - programming and electronics, control systems, mechanical design
+design patterns
+
+LINKS
+
+SOLID
