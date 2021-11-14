@@ -38,8 +38,8 @@
     * \myemph{{regex}} - for capture groups  \mynext
     * Autodesk \myemph{{inventor}} - design a simple gearbox and simulate it  \mynext
     * \myemph{{matlab}} - programming, SimuLink modelling  \mynext
-    * \myemph{{R}} - only worth for ggplot2  \mynext
-    * \myemph{{USB2}} - bus firmware for a bare-metal device
+    * \myemph{{R}} - for ggplot2  \mynext
+    * avr-\myemph{{asm}}
 }
 \end{factlist}
 
@@ -60,7 +60,7 @@
 
 \section{Education}
 \begin{yearlist}
-\item[{\footnotesize Cognitive Systems: Language, Learning and Reasoning - dropped with }]
+\item[{\footnotesize Cognitive Systems: Language, Learning and Reasoning}]
      {2017 -- 2019}
      {Machine Learning Scientist - dropped}
      {University of Potsdam, Germany}
@@ -149,39 +149,46 @@
 \pagebreak
 \section{Work Experience}
 \begin{eventlist}
-\item{04 Jan 2016 - 07 Sep 2017}
+\item{Feb 2020 - Jul 2020}
+     {Smule}
+     {C++ Android algorithms}  \\
+- Revive a legacy codebase (2000 line functions, zero documentation, no authors) but of significant business and engineering importance.  \\
+- Segment words from audio stream.  \\
+- Remain productive despite endless meetings.  \\
+- Write simple tools in python to parse logs and source code.  \\
+- Investigate crashes on Android devices.  \\
+
+\item{Jan 2016 - Sep 2017}
      {Euro Games Technology}
-     {C++ Linux developer}                                           \\
-Developing core functionality for a large C++ system, subject to certification, legislation and money handling.
-Some tasks:                                                          \\
-- GNU utilities, Linux sockets, IPC, multithreading, bash scripting  \\
-- C++14, CMake, clang-tidy                                           \\
-- OpenGL, SDL2
-\\
-Somee projects:                                                       \\
-- bill acceptor device firmware - handle money responsibly            \\
-- support and evolve a video API for about 200 internal clients       \\
-- script gitolite hooks and commutnicate their purpose to colleagues  \\
+     {C++ embedded linux}  \\
+- Maintain the layer just below Business Logic.
+  Essentially encapsulate SDL2, OpenGL, linux files, IPC, devices and network as to provide an API to internal clients.  \\
+- Bill accepting device user-space driver implementation from scratch.  \\
+- Script Gitolite hooks and commutnicate their purpose to the other teams.  \\
+- Animate custom fonts, draw values based on network updates.  \\
 
 \item{20 May 2013 - 21 Mar 2015}
      {Antelope Audio}
-     {C++ ARM developer}              \\
-Implementation of a complex audio processing algorithm in C++ for ARM.
-Audio signal processing design (z-transform, filters, impulse response, amplitude and phase diagrams).
-GUI design with Python and Qt.
-OpenOCD and hardware considerations.   \\
+     {C++ ARM bare metal}  \\
+- Implement a reverb in C++ on bare metal ARM.  \\
+- Design a GUI communicating with the device using pyQt.  \\
+- Implement dynamic biquad filter coefficient update as to respond to the user turning a knob.  \\
+- The filter representations in z-domain are combined to yield a frequency response graph.  \\
+- Develop UAB2 Audio mode firmware for bare metal ARM.  \\
+- JTAG-and-scope debugging.  \\
 
-\item{12 Feb 2013 - 13 May 2013}
+\item{Feb 2013 - May 2013}
      {Johnson Controls}
-     {C embedded developer} \\
-Embedded C, concurrency, unit tests and documentation.  \\
+     {C embedded} \\
+Boolean algebra, concurrency, unit tests and documentation.  \\
 
 \item{22 Aug 2011 - 15 Jan 2013}
-     {MM Solutions Ltd}
-     {C++ algorithms for Android} \\
-C++ with Boost, OpenCV etc. libraries for ARM.
-GNU/Linux and git.
-Digital video processing in 3D environment (quaternions, field of view, image recognition, gyroscopes).
+     {MM Solutions}
+     {C++ Android algorithms} \\
+Developed and implemanted image stabilization for Android videos.
+The use of the onboard gyroscope in the feedback loop was novel at the time, allowing unparalleled performance in real-time video capture.
+Adittionally SIFT features were used for training and for drift correction.
+All rotations were expressed in quaternions.
 \end{eventlist}
 
 
