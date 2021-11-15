@@ -125,6 +125,27 @@
     \ifstrempty{#1}{}{\smallskip\\ \SYMBOL{218} & \href{http://#1}{#1}}
     \end{tabularx}}}
 
+% mvitkov
+% Renders a personal data box:
+%
+%     \personal
+%         {born}
+%         {address}
+%         {phone number}
+%         {email}
+\newcommand\mypersonal[4]{%
+    \newcommand\SYMBOL[1]{\raisebox{-2pt}{\Large\ding{##1}}}%
+    \needspace{0.5\textheight}%
+    \newdimen\boxwidth%
+    \boxwidth=\dimexpr\linewidth-2\fboxsep\relax%
+    \colorbox[HTML]{F5DD9D}{%
+    \begin{tabularx}{\boxwidth}{c|X}
+    \SYMBOL{100} & {#1}\smallskip\\
+    \SYMBOL{45} & {#2}\smallskip\\
+    \SYMBOL{37} & {#3}\smallskip\\
+    \SYMBOL{41} & \href{mailto:#4}{#4}
+    \end{tabularx}}}
+
 % Every \item can be followed by one or more paragraphs
 % of description:
 %
